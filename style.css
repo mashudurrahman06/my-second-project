@@ -517,9 +517,9 @@ footer{
 
   /* Banner Section */
    .bannerSection {
-    background-size: 200%;
+    background-size: 300%;
     background-position: top center;
-    min-height: 40vh;
+    min-height:auto ;
     
 
     
