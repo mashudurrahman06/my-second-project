@@ -710,7 +710,6 @@ footer{
 }
 
 @media (max-width:768px){
-    @media (min-width: 350px){
     .navItems ul,
   .navButton .btn {
     display: none; /* hide links and button */
@@ -921,4 +920,3 @@ footer{
 
 }
 
-}
