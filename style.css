@@ -708,3 +708,217 @@ footer{
 
 
 }
+
+@media (max-width:768px){
+    @media (min-width: 350px){
+    .navItems ul,
+  .navButton .btn {
+    display: none; /* hide links and button */
+  }
+
+  .hamburger {
+    display: block; /* show hamburger */
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navLogo img {
+    max-width: 120px; /* logo smaller */
+  }
+
+  /* Banner Section */
+   .bannerSection {
+    background-size: 300%;
+    background-position: top center;
+    min-height:auto ;
+    
+
+    
+
+   }
+.bannerItems{
+    padding-top: 9px;
+}
+
+
+  .bannerGradiant { /* smaller circle */
+    
+  }
+
+  .bannerGradiant img {
+    padding: 40px 50px 50px 50px; /* reduce padding */
+  }
+  .bannerText{
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+  .bannerText h2 {
+    font-size: 32px; /* smaller heading */
+    padding-bottom: 16px;
+  }
+
+  .bannerText p {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+
+  .bannerbtn {
+     /* stack buttons */
+    gap: 12px;
+    padding-bottom: 8px;
+  }
+
+  
+
+  /* About Section */
+  .aboutHeading h2 {
+    font-size: 28px;
+  }
+
+  .aboutHeading p {
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+
+  .aboutitems {
+    flex-wrap: wrap;
+    padding: 40px 0px 40px 0px;
+  }
+  .item{
+    flex: 0 0 50%;
+  }
+
+  .aboutitems h2 {
+    font-size: 28px;
+  }
+
+  .aboutitems p {
+    font-size: 14px;
+  }
+  .containerGrid{
+    display: grid;
+    
+    row-gap: 16px;
+    
+    grid-template-columns: 1fr ;
+    padding: 16px 0px 16px  0px;
+    margin-bottom: 0px;
+
+}
+.cardtwo{
+    margin-bottom: 0px;
+}
+.gridcard{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    
+    
+    
+}
+.cardtitle h2{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+.cardfive{
+    margin-bottom: 24px;
+}
+.featureSectionTitle{
+     color: #FFFFFF;
+    font-size: 24px;
+    padding-top: 12px;
+}
+.featureContent{
+    padding: 20px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.video-container {
+      position: relative;
+      width: 330px;
+      height: 214px;
+      cursor: pointer;
+    }
+     iframe {
+      width: 330px;
+      height: 214px;
+      border-radius: 32px 32px 0px 0px;
+      border: none;
+    }
+    .description{
+    background-color: rgba(53, 17, 101, 0.4);
+    width: 330px;
+    height: 200px;
+    border-radius: 0px 0px 32px 32px;
+
+}
+.aboutHost{
+    padding-bottom: 40px;
+}
+.aboutHost h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+    
+
+}
+.hostCard{
+    
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-left: 50px;
+    width: 80%;
+}
+.hostInfo h3{
+    color: #FFFFFFFf;
+    font-size: 20px;
+    font-weight: 700;
+    padding:0px 40px 0px 40px;
+}
+.hostPic img {
+    padding-left: 0px;
+}
+.hostInfo p {
+    color: #d8d4d4;
+    font-size: 16px;
+    padding: 16px 40px 24px 40px ;
+}
+.socialIcon {
+    padding-left: 40px;
+}
+.footerItems{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.footerIcon{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 8px;
+    
+    
+}
+.itemTwo{
+   flex: 0 0 50%; 
+}
+
+.footerIcon p{
+    color: #d8d4d4;
+    font-size: 16px;
+    padding: 32px 0px 24px 0px;
+}
+
+
+}
+
+}
