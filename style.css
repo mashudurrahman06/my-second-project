@@ -519,7 +519,7 @@ footer{
    .bannerSection {
     background-size: 200%;
     background-position: top center;
-    min-height: 35vh;
+    min-height: 40vh;
     
 
     
@@ -555,6 +555,7 @@ footer{
   .bannerbtn {
      /* stack buttons */
     gap: 12px;
+    padding-bottom: 32px;
   }
 
   
